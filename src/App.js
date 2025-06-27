@@ -28,7 +28,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="nav-logo-text">SR</span>
+            <span className="nav-logo-text">S&R</span>
           </div>
           <ul className="nav-menu">
             <li className="nav-item">

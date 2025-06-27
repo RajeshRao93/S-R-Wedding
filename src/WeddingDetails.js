@@ -12,7 +12,7 @@ const WeddingDetails = () => {
               {/* Reception Details */}
               <div className="event-timeline-item">
                 <div className="event-header">
-                  <h2 className="event-title">Reception</h2>
+                  <h2 className="event-title">Wedding Reception</h2>
                   <div className="event-date">
                     <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -38,7 +38,7 @@ const WeddingDetails = () => {
               {/* Marriage Details */}
               <div className="event-timeline-item">
                 <div className="event-header">
-                  <h2 className="event-title">Wedding</h2>
+                  <h2 className="event-title">Wedding Ceremony</h2>
                   <div className="event-date">
                     <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

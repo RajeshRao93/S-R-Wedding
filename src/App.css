@@ -75,6 +75,7 @@
   position: relative;
   z-index: 1;
   transition: all 0.3s ease;
+  padding-right: 10px;
 }
 
 .nav-logo:hover .nav-logo-text {
@@ -202,7 +203,7 @@
 }
 
 .main-title {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Cinzel', cursive;
   font-size: 4.5rem;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -1461,7 +1462,7 @@
 }
 
 .event-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -1503,11 +1504,10 @@
 }
 
 .venue-label {
-  font-family: 'Montserrat', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 1.1rem;
   font-weight: 600;
   color: #e6e6fa;
-  text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.8rem;
   display: flex;
