@@ -8,6 +8,60 @@ const WeddingDetails = () => {
         
         <div className="events-container">
           <div className="event-card">
+          <div className="events-timeline">
+              {/* Reception Details */}
+              <div className="event-timeline-item">
+                <div className="event-header">
+                  <h2 className="event-title">Reception</h2>
+                  <div className="event-date">
+                    <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M16 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M3 10H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M7 14H9V16H7V14Z" fill="currentColor"/>
+                      <path d="M11 14H13V16H11V14Z" fill="currentColor"/>
+                      <path d="M15 14H17V16H15V14Z" fill="currentColor"/>
+                      <path d="M7 18H9V16H7V18Z" fill="currentColor"/>
+                      <path d="M11 18H13V20H11V18Z" fill="currentColor"/>
+                      <path d="M15 18H17V20H15V18Z" fill="currentColor"/>
+                    </svg>
+                    October 4th, Saturday, 2025
+                  </div>
+                </div>
+                <div className="event-time">
+                  <h3 className="time-label">Time</h3>
+                  <p className="time-text">7:00 PM Onwards</p>
+                </div>
+              </div>
+
+              {/* Marriage Details */}
+              <div className="event-timeline-item">
+                <div className="event-header">
+                  <h2 className="event-title">Wedding</h2>
+                  <div className="event-date">
+                    <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M16 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M3 10H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <path d="M7 14H9V16H7V14Z" fill="currentColor"/>
+                      <path d="M11 14H13V16H11V14Z" fill="currentColor"/>
+                      <path d="M15 14H17V16H15V14Z" fill="currentColor"/>
+                      <path d="M7 18H9V16H7V18Z" fill="currentColor"/>
+                      <path d="M11 18H13V20H11V18Z" fill="currentColor"/>
+                      <path d="M15 18H17V20H15V18Z" fill="currentColor"/>
+                    </svg>
+                    October 5th, Sunday, 2025
+                  </div>
+                </div>
+                <div className="event-time">
+                  <h3 className="time-label">Time</h3>
+                  <p className="time-text">09:00 AM - 2:00 PM</p>
+                </div>
+              </div>
+            </div>
+
             <div className="venue-details">
               <div className="venue-item">
                 <h3 className="venue-label">
@@ -41,60 +95,6 @@ const WeddingDetails = () => {
                   Parking
                 </h3>
                 <p className="venue-text" style={{marginTop: '30px'}}>Ample parking available on the premises</p>
-              </div>
-            </div>
-
-            <div className="events-timeline">
-              {/* Reception Details */}
-              <div className="event-timeline-item">
-                <div className="event-header">
-                  <h2 className="event-title">Wedding Reception</h2>
-                  <div className="event-date">
-                    <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M16 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M3 10H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M7 14H9V16H7V14Z" fill="currentColor"/>
-                      <path d="M11 14H13V16H11V14Z" fill="currentColor"/>
-                      <path d="M15 14H17V16H15V14Z" fill="currentColor"/>
-                      <path d="M7 18H9V16H7V18Z" fill="currentColor"/>
-                      <path d="M11 18H13V20H11V18Z" fill="currentColor"/>
-                      <path d="M15 18H17V20H15V18Z" fill="currentColor"/>
-                    </svg>
-                    October 4th, Saturday, 2025
-                  </div>
-                </div>
-                <div className="event-time">
-                  <h3 className="time-label">Time</h3>
-                  <p className="time-text">7:00 PM Onwards</p>
-                </div>
-              </div>
-
-              {/* Marriage Details */}
-              <div className="event-timeline-item">
-                <div className="event-header">
-                  <h2 className="event-title">Wedding Ceremony</h2>
-                  <div className="event-date">
-                    <svg className="calendar-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M8 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M16 2V5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M3 10H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M19 4H5C3.89543 4 3 4.89543 3 6V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V6C21 4.89543 20.1046 4 19 4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M7 14H9V16H7V14Z" fill="currentColor"/>
-                      <path d="M11 14H13V16H11V14Z" fill="currentColor"/>
-                      <path d="M15 14H17V16H15V14Z" fill="currentColor"/>
-                      <path d="M7 18H9V16H7V18Z" fill="currentColor"/>
-                      <path d="M11 18H13V20H11V18Z" fill="currentColor"/>
-                      <path d="M15 18H17V20H15V18Z" fill="currentColor"/>
-                    </svg>
-                    October 5th, Sunday, 2025
-                  </div>
-                </div>
-                <div className="event-time">
-                  <h3 className="time-label">Time</h3>
-                  <p className="time-text">09:00 AM - 2:00 PM</p>
-                </div>
               </div>
             </div>
           </div>

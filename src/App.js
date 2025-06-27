@@ -28,7 +28,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="nav-logo-text">S & R</span>
+            <span className="nav-logo-text">SR</span>
           </div>
           <ul className="nav-menu">
             <li className="nav-item">
@@ -55,6 +55,7 @@ function App() {
                 Wedding Details
               </button>
             </li>
+            {/* Gallery Navigation Item
             <li className="nav-item">
               <button 
                 className={`nav-link ${currentPage === 'gallery' ? 'active' : ''}`}
@@ -62,7 +63,7 @@ function App() {
               >
                 Gallery
               </button>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
