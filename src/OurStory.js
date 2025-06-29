@@ -61,34 +61,34 @@ const OurStory = () => {
           <h1 className="story-title">From Campus to Forever</h1>
           <div className="story-text">
           <p>
-            We first crossed paths in the corridors of our engineering college, just a quiet boy 
-            with a spark in his eyes, and a confident, ever-curious girl who somehow always knew 
-            the right thing to say. What began as casual chats over assignments slowly grew into 
-            late-night messages, and soon turned into something we couldn’t quite describe, but
-            felt deeply in our hearts.
+            Rajesh and Sushma first crossed paths in the corridors of their engineering college,
+            a quiet boy with a spark in his eyes, and a confident, ever curious girl who somehow
+            always knew the right thing to say. It started with casual chats over assignments, 
+            grew through late night messaging, and soon turned into something that neither of
+            them could put into words but both felt deeply.
           </p>
 
           <p>
-            After graduation, fate had more plans for us, we ended up working at the same company,
-            side by side, coding through chaotic sprints and bonding over shared lunch breaks.
-            As we stepped into the early days of adulthood, we navigated it all hand in hand, 
-            growing closer with every passing day.
+            After graduation, fate had more in store, they ended up working in the same company, 
+            side by side, coding their way through chaotic sprints and shared lunch breaks.
+            Their bond only deepened as they navigated early careers and the beautiful mess of adulthood, 
+            hand in hand.
           </p>
-
           <p>
-           Then came a big turn, Rajesh moved to Germany to pursue higher studies. It wasn’t easy.
-           Time zones, distance, and longing all became part of our story. But through it all, what
-           stayed constant was our commitment to each other. While he built a new life abroad,
-           I was always just one call away, his biggest cheerleader, and he mine.
+            Then came a big turn, Rajesh got an opportunity to pursue his higher studies in Germany.
+            It wasn’t easy. Time zones, distance, and longing came into the picture but what stayed
+            constant was their commitment to each other. While Rajesh built his life abroad, 
+            Sushma cheered him on from afar, always just one call away, his biggest supporter and oldest friend.
           </p>
-
           <p>
-            Now, after 11 incredible years filled with laughter, challenges, and a love that’s only
-            grown stronger over time, we’re finally stepping into the next chapter of our journey.
-            As we prepare to say "I do" in front of our loved ones, we couldn’t be more excited to
-            celebrate this special day with you. It’s not just our wedding—it’s the beginning of a
-            beautiful new chapter, and we’re so happy you’ll be part of it.
-          </p>
+            After 11 incredible years of laughter, challenges, milestones, and a love 
+            that only grew stronger with time, they’re finally stepping into the next chapter of their journey.
+           </p> 
+           <p>
+            Now, as we prepare to say "I do" in front of our loved ones, we invite you 
+            to be part of our special day. This isn't just our wedding, it's the beginning 
+            of a new chapter in our love story, and we're excited to share it with you.
+           </p>
 
             
             <p className="story-signature">
